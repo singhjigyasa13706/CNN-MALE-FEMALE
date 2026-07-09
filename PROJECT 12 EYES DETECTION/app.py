@@ -20,7 +20,7 @@ st.write("Upload an eye image to predict whether it belongs to a Male or Female.
 # ---------------------------------
 @st.cache_resource
 def load_model():
-    model = tf.keras.models.load_model("model.keras")
+    model = tf.keras.models.load_model("PROJECT 12 EYES DETECTION/model.keras")
     return model
 
 model = load_model()
